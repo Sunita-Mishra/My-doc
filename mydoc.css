@@ -62,8 +62,8 @@ h5{
 	width: 100vw;
 }
 .slides{
-	width: 50%;
-	left: 31%;
+	width: 60%;
+	left: 20%;
 	top: 30%;
 }
 
@@ -78,7 +78,8 @@ h5{
 	}
 	h5{
 		text-align: center;
+		display:inline-block;
 		
-		font-size: 5vw;
+		font-size: 4.5vw;
 	}
 }
