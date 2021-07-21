@@ -1,0 +1,92 @@
+*{margin: 0rem;
+	padding: 0rem;
+
+}
+body{
+	height: 100%;
+	width:100% ;
+}
+.navigation{ 
+	font-weight: bolder;
+	color:rgba(255, 255,255, 1)!important;
+	list-style: none;
+	float: right;
+	float: right;
+}
+.navigation a{
+	color: rgba(255, 255,255, 0.7);
+	text-decoration: none;
+
+}
+h5{
+	text-align: center;
+	
+	font-size: 2.5vw;
+	animation: anime 0.9s linear  1;
+	transform: translateY(-22vw);
+}
+.para{
+	display: inline-block;
+	font-size: 1.5vw;
+	transform: translateY(-21vw);
+	
+}
+.buttons{
+	animation: animes 0.9s linear  1;
+	transform: translateY(-20vw);
+	
+}
+@keyframes anime{
+	from{
+		transform: translateY(-25vw) ;
+	}
+	to{
+		transform: translateY(-22vw);
+	}
+}
+@keyframes animes{
+	from{
+		transform: translateY(-18vw) ;
+	}
+	to{
+		transform: translateY(-20vw);
+	}
+
+}
+#links{
+	color: rgba(255, 255,255, 0.7)!important;
+	float: left!important;
+}
+.slides{
+	width: 40%;
+	left: 31%;
+	top: 65%;
+}
+@media(max-width:767px){
+	.buttons{
+		animation: animes 0.9s linear  1;
+		transform: translateY(-20vw);
+		font-size: small;
+		
+	}
+
+}
+@media(max-width:500px){
+	.buttons{
+		animation: animes 0.9s linear  1;
+		transform: translateY(-22vw);
+		font-size: 2vw;
+		margin-top: 1px;
+		
+	}
+	@keyframes animes{
+		from{
+			transform: translateY(-18vw) ;
+		}
+		to{
+			transform: translateY(-22vw);
+		}
+	
+	}
+
+}
