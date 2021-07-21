@@ -34,6 +34,7 @@ h5{
 .buttons{
 	animation: animes 0.9s linear  1;
 	transform: translateY(-20vw);
+	margin-left:15%;
 	
 }
 @keyframes anime{
@@ -46,10 +47,10 @@ h5{
 }
 @keyframes animes{
 	from{
-		transform: translateY(-18vw) ;
+		transform: translateY(-9vw) ;
 	}
 	to{
-		transform: translateY(-20vw);
+		transform: translateY(-19vw);
 	}
 
 }
@@ -75,6 +76,6 @@ h5{
 		
 	}
 	.para{
-		font-size: 1.7vw;
+		font-size: 1.9vw;
 	}
 }
