@@ -23,34 +23,33 @@ h5{
 	
 	font-size: 2.5vw;
 	animation: anime 0.9s linear  1;
-	transform: translateY(-22vw);
+	transform: translateY(-4vw);
 }
 .para{
 	display: inline-block;
 	font-size: 1.5vw;
-	transform: translateY(-21vw);
+	transform: translateY(-3vw);
 	
 }
 .buttons{
 	animation: animes 0.9s linear  1;
-	transform: translateY(-20vw);
-	margin-left:15%;
+	transform: translateY(-2.7vw);
 	
 }
 @keyframes anime{
 	from{
-		transform: translateY(-25vw) ;
+		transform: translateY(-7vw) ;
 	}
 	to{
-		transform: translateY(-22vw);
+		transform: translateY(-4vw);
 	}
 }
 @keyframes animes{
 	from{
-		transform: translateY(-9vw) ;
+		transform: translateY(-1vw) ;
 	}
 	to{
-		transform: translateY(-19vw);
+		transform: translateY(-2.5vw);
 	}
 
 }
@@ -58,24 +57,28 @@ h5{
 	color: rgba(255, 255,255, 0.7)!important;
 	float: left!important;
 }
-.slides{
-	width: 40%;
-	left: 31%;
-	top: 65%;
-}
 .carousel-div{
 	height: 100vh;
 	width: 100vw;
 }
-@media(max-width:400px)
+.slides{
+	width: 40%;
+	left: 31%;
+	top: 30%;
+}
+
+@media(max-width:500px)
 {
 	.buttons{
-		animation: animes 0.9s linear  1;
-		transform: translateY(-20vw);
-		font-size: 3vw;
+		font-size: 1.5vw;
 		
 	}
 	.para{
-		font-size: 1.9vw;
+		font-size: 2.2vw!important;
+	}
+	h5{
+		text-align: center;
+		
+		font-size: 3.5vw;
 	}
 }
