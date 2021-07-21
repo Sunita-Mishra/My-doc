@@ -62,31 +62,19 @@ h5{
 	left: 31%;
 	top: 65%;
 }
-@media(max-width:767px){
+.carousel-div{
+	height: 100vh;
+	width: 100vw;
+}
+@media(max-width:400px)
+{
 	.buttons{
 		animation: animes 0.9s linear  1;
 		transform: translateY(-20vw);
-		font-size: small;
+		font-size: 3vw;
 		
 	}
-
-}
-@media(max-width:500px){
-	.buttons{
-		animation: animes 0.9s linear  1;
-		transform: translateY(-22vw);
-		font-size: 2vw;
-		margin-top: 1px;
-		
+	.para{
+		font-size: 1.7vw;
 	}
-	@keyframes animes{
-		from{
-			transform: translateY(-18vw) ;
-		}
-		to{
-			transform: translateY(-22vw);
-		}
-	
-	}
-
 }
